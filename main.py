@@ -31,7 +31,7 @@ def ejecutar_sistema():
         print(json.dumps(catalogo, indent=2, ensure_ascii=False))
 
     except Exception as e:
-        print(f"Se produjo un error durante la ejecución: {e}")
+        print(f"Se produjo un fallo durante la ejecución: {e}")
 
 if __name__ == "__main__":
     ejecutar_sistema()
